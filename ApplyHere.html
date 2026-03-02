@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Here</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header" id="header5">
+        <div class="company-name">
+            <a href="index.html">
+                <img src="Images/HotBeansLogo.png" alt="Hot Beans Logo" />
+            </a>
+        </div>
+        <nav class="navigation">
+        <div class="nav-links">
+            <a href="About.html" class="nav-links active">About Us</a>
+            <a href="TheTeam.html" class="nav-links active">The Team</a>
+            <a href="Vacancies.html" class="nav-links active">Vacancies</a>
+            <a href="ApplyHere.html" class="nav-links active">Apply Here</a>
+            <a href="LearningResources.html" class="nav-links active">Resources</a>
+        </div>
+    </nav>
+    </header>
+    <div class="Top">
+        <h1>Apply Here</h1>
+    <p>Please fill out the application form below to apply for a position at Hot Beans.</p>
+    </div>
+        <form action="#" method="post" class="application-form">
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="DOB">Date of Birth:</label><br>
+        <input type="date" id="DOB" name="DOB" required><br><br>
+
+        <label for="Address">Street Address:</label><br>
+        <input type="text" id="Address" name="Address" required><br><br>
+
+        <label for="postalCode">Postal Code:</label><br>
+        <input type="text" id="postalCode" name="postalCode" required><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="Nationality">Nationality:</label><br>
+        <input type="text" id="Nationality" name="Nationality" required><br><br>
+
+        <label for="position">Position Applied For:</label><br>
+        
+        <select id="position" name="position" required>
+            <option value="">--Select Position--</option>
+            <option value="web-applications-developer-trainee">Web Applications Developer Trainee</option>
+            <option value="ui-designer-trainee">UI Designer Trainee</option>
+            <option value="full-stack-developer-trainee">Full-Stack Developer Trainee</option>
+            <option value="backend-web-developer-trainee">Backend Web Developer Trainee</option>
+        </select><br><br>
+
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+
+        <label for="coverLetter">Cover Letter:</label><br>
+        <textarea id="coverLetter" name="coverLetter" rows="6" cols="50" placeholder="Write your cover letter here..."></textarea><br><br>
+
+        <input type="submit" value="Submit Application">
+    </form>
+    <!-- Footer Section with contact information -->
+     
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-Logo-card">
+                <img src="Images/HotBeansLogo.png" alt="Hot Beans Logo" /><br><br>
+                <p>Copyright &copy; 2026</p>
+            </div>
+            <div class="footer-contact-card">
+                <h3>Contact us</h3>
+                <p>@hotbeansweb.co.uk</p>
+                <p>(+44) 1632 960 742</p><br>   
+                <p>Unit 14 Innovation Hub, Gloucester Business Park, GL3 4AA</p>
+            </div>
+            <div class="footer-socials-card">
+                <a href="https://www.linkedin.com/company/hot-beans-web-development/" target="_blank">
+                    <img src="Images/LinkedIn.png" alt="LinkedIn Logo" />
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
