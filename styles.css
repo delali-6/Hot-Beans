@@ -54,7 +54,7 @@ ul {
 
 ul li {
     margin-bottom: 8px;
-    background-color: #F2F4F7;
+    background-color: #FFF2D7;
     border-radius: 9px;
 }
 
@@ -67,7 +67,7 @@ ol {
 
 ol li {
     margin-bottom: 8px;
-    background-color: #F2F4F7;
+    background-color: #FFF2D7;
     border-radius: 9px;
 }
 
@@ -717,6 +717,7 @@ ul.breadcrumb li a:hover {
 .job-content ol {
     list-style-type: square;
     margin-left: 40px;
+    background-color: #FFF2D7;
 }
 
 /* Story/mission sections */
