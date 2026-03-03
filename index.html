@@ -87,7 +87,8 @@
                 <p>Contact us today to discuss your project and how we can help you achieve your goals.</p>
                 </div>
                 <div class="cnt-form">
-                    <form action="#" method="post" class="contact-form">
+                    <form name="contactForm" data-netlify="true" action="#" method="post" class="contact-form">
+                        <input type="hidden" name="form-name" value="contactForm">
                         <input type="text" name="name" placeholder="Your Full Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="message" placeholder="Your Message" required></textarea>

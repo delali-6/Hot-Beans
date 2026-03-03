@@ -188,6 +188,13 @@ ul.disc {
     text-align: center;
 }
 
+.services-card .card-text:hover {
+    background-color: #1F2A44;
+    color: #efefe8;
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
 .services img {
     width: 120px;
     height: 120px;
