@@ -54,7 +54,7 @@ ul {
 
 ul li {
     margin-bottom: 8px;
-    background-color: #F2F4F7;
+    background-color: #FFF2D7;
     border-radius: 9px;
 }
 
@@ -67,7 +67,7 @@ ol {
 
 ol li {
     margin-bottom: 8px;
-    background-color: #F2F4F7;
+    background-color: #FFF2D7;
     border-radius: 9px;
 }
 
@@ -590,7 +590,7 @@ ul.breadcrumb li a:hover {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    margin-right: 70px;
+    margin-right: 90px;
 }
 
 
@@ -717,6 +717,7 @@ ul.breadcrumb li a:hover {
 .job-content ol {
     list-style-type: square;
     margin-left: 40px;
+    background-color: #FFF2D7;
 }
 
 /* Story/mission sections */
