@@ -15,6 +15,9 @@
                 <img src="Images/HotBeansLogo.png" alt="Hot Beans Logo" />
             </a>
         </div>
+        <!--Menu toggle for mobile view-->
+        <div class="menu-toggle active">☰</div>
+        <!--Navigation links-->
         <nav class="navigation">
         <div class="nav-links">
             <a href="About.html" class="nav-links active">About Us</a>
@@ -175,5 +178,15 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const toggle = document.querySelector(".menu-toggle");
+        const nav = document.querySelector(".nav-links");
+
+        toggle.addEventListener("click", () => {
+            nav.classList.toggle("active");
+        });
+    </script>
+
 </body>
 </html>

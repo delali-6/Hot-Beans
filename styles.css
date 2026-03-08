@@ -117,6 +117,13 @@ ul.disc {
     align-items: left;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
 .header nav {
     background-color: #1F2A44;
     padding: 10px 0;
@@ -851,199 +858,119 @@ ul.breadcrumb li a:hover {
     flex-shrink: 0;
 }
 
-/* Responsive */
 /* =========================
-   TABLETS (1024px and below)
-   ========================= */
-
-@media (max-width: 1024px) {
-
-    body {
-        font-size: 18px;
-    }
-
-    .services-card {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .Tech-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .Achievements-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .content-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .content-grid4 {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 95%;
-    }
-
-    .Why-grid {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .why-work-with-us {
-        grid-template-columns: 1fr;
-    }
-
-    .vacancies {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-
-/* =========================
-   LARGE PHONES (768px)
+   LARGE PHONES / MOBILE (768px)
    ========================= */
 
 @media (max-width: 768px) {
 
-    body {
-        font-size: 16px;
-        margin-left: 0;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    .header,
-    .header2 {
-        flex-direction: column;
-        height: auto;
-        padding: 20px 10px;
-    }
-
-    .header img,
-    .header2 img {
-        height: 100px;
-        margin: 10px auto;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-
-    .hero {
-        height: auto;
-        padding: 80px 5%;
-        text-align: center;
-    }
-
-    .hero-content h1,
-    .hero-content p {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .services-card {
-        grid-template-columns: 1fr;
-    }
-
-    .Tech-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .Achievements-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .content-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .content-grid2 {
-        grid-template-columns: 1fr;
-    }
-
-    .content-grid3 {
-        grid-template-columns: 1fr;
-        max-width: 100%;
-    }
-
-    .content-grid4 {
-        grid-template-columns: 1fr;
-        max-width: 95%;
-    }
-
-    .container img {
-        float: none;
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .Contact-form {
-        flex-direction: column;
-    }
-
-    .footer-grid {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 30px;
-    }
-
+body {
+    font-size: 16px;
+    margin-left: 0;
 }
 
+h1 {
+    font-size: 28px;
+}
 
-/* =========================
-   SMALL PHONES (480px)
-   ========================= */
+h2 {
+    font-size: 24px;
+}
 
-@media (max-width: 480px) {
+/* HEADER */
 
-    body {
-        font-size: 15px;
-    }
+.header,
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
 
-    h1 {
-        font-size: 24px;
-    }
+.header img,
+.header2 img {
+    height: 90px;   /* bigger logo for mobile */
+}
 
-    h2 {
-        font-size: 20px;
-    }
+/* Hamburger button */
 
-    .hero {
-        padding: 60px 20px;
-    }
+.menu-toggle {
+    display: block;
+    font-size: 32px;
+    cursor: pointer;
+}
 
-    .services img,
-    .Tech-text img {
-        width: 80px;
-        height: 80px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/* NAVIGATION */
 
-    .profile-card {
-        padding: 15px;
-    }
+.nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0a1a3a;
+    text-align: center;
+    padding: 15px 0;
+}
 
-    .card-text {
-        font-size: 18px;
-    }
+.nav-links a {
+    padding: 12px 0;
+    font-size: 18px;
+}
 
-    .footer-Logo-card img {
-        height: 100px;
-        margin: auto;
-    }
+/* When menu is clicked */
 
-    .footer-socials-card img {
-        width: 40px;
-        height: 40px;
-    }
+.nav-links.active {
+    display: flex;
+}
 
+/* HERO */
+
+.hero {
+    height: auto;
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.hero-content h1,
+.hero-content p {
+    max-width: 100%;
+    text-align: center;
+}
+
+/* GRID STACKING */
+
+.services-card,
+.Tech-grid,
+.Achievements-grid,
+.content-grid,
+.content-grid2,
+.content-grid3,
+.content-grid4 {
+    grid-template-columns: 1fr;
+}
+
+.content-grid3 {
+    max-width: 100%;
+}
+
+.content-grid4 {
+    max-width: 95%;
+}
+
+.container img {
+    float: none;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.Contact-form {
+    flex-direction: column;
+}
+
+.footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+}
+
+}
 }
