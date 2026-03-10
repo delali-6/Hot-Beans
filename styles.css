@@ -117,13 +117,6 @@ ul.disc {
     align-items: left;
 }
 
-.menu-toggle {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-    color: white;
-}
-
 .header nav {
     background-color: #1F2A44;
     padding: 10px 0;
@@ -892,14 +885,6 @@ h2 {
     height: 90px;   /* bigger logo for mobile */
 }
 
-/* Hamburger button */
-
-.menu-toggle {
-    display: block;
-    font-size: 32px;
-    cursor: pointer;
-}
-
 /* NAVIGATION */
 
 .nav-links {
@@ -915,8 +900,6 @@ h2 {
     padding: 12px 0;
     font-size: 18px;
 }
-
-/* When menu is clicked */
 
 .nav-links.active {
     display: flex;
@@ -972,5 +955,4 @@ h2 {
     gap: 30px;
 }
 
-}
 }
