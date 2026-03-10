@@ -16,17 +16,25 @@
                 <img src="Images/HotBeansLogo.png" alt="Hot Beans Logo" />
             </a>
         </div>
-        <!--Menu toggle for mobile view-->
-        <div class="menu-toggle active">☰</div>
-        <!--Navigation links-->
-        <nav class="navigation">
-        <div class="nav-links">
-            <a href="About.html" class="nav-links active">About Us</a>
-            <a href="TheTeam.html" class="nav-links active">The Team</a>
-            <a href="Vacancies.html" class="nav-links active">Vacancies</a>
-            <a href="ApplyHere.html" class="nav-links active">Apply Here</a>
-            <a href="LearningResources.html" class="nav-links active">Resources</a>
+        <!--Dropdown menu for mobile view-->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">☰</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="About.html">About Us</a>
+                <a href="TheTeam.html">The Team</a>
+                <a href="Vacancies.html">Vacancies</a>
+                <a href="ApplyHere.html">Apply Here</a>
+                <a href="LearningResources.html">Resources</a>
+            </div>
         </div>
+        
+        <!--Navigation links-->
+        <nav class="nav-links active">
+            <a href="About.html" >About Us</a>
+            <a href="TheTeam.html" >The Team</a>
+            <a href="Vacancies.html" >Vacancies</a>
+            <a href="ApplyHere.html" >Apply Here</a>
+            <a href="LearningResources.html" >Resources</a>
     </nav>
     </header>
     
@@ -180,5 +188,14 @@
         </div>
     </footer>
 
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navigation = document.querySelector(".nav-links");
+
+        hamburger.addEventListener("click", () => {
+            navigation.classList.toggle("open");
+        });
+</script>
 </body>
 </html>

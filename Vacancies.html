@@ -8,20 +8,32 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <header class="header" id="header4">
+    <header class="header" id="header1">
+        <script src="script.js"></script> <!-- Link to external JavaScript file -->
         <div class="company-name">
             <a href="index.html">
                 <img src="Images/HotBeansLogo.png" alt="Hot Beans Logo" />
             </a>
         </div>
-        <nav class="navigation">
-        <div class="nav-links">
-            <a href="About.html" class="nav-links active">About Us</a>
-            <a href="TheTeam.html" class="nav-links active">The Team</a>
-            <a href="Vacancies.html" class="nav-links active">Vacancies</a>
-            <a href="ApplyHere.html" class="nav-links active">Apply Here</a>
-            <a href="LearningResources.html" class="nav-links active">Resources</a>
+        <!--Dropdown menu for mobile view-->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">☰</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="About.html">About Us</a>
+                <a href="TheTeam.html">The Team</a>
+                <a href="Vacancies.html">Vacancies</a>
+                <a href="ApplyHere.html">Apply Here</a>
+                <a href="LearningResources.html">Resources</a>
+            </div>
         </div>
+        
+        <!--Navigation links-->
+        <nav class="nav-links active">
+            <a href="About.html" >About Us</a>
+            <a href="TheTeam.html" >The Team</a>
+            <a href="Vacancies.html" >Vacancies</a>
+            <a href="ApplyHere.html" >Apply Here</a>
+            <a href="LearningResources.html" >Resources</a>
     </nav>
     </header><br><br><br>
             <div class="content-grid2">
