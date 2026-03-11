@@ -14,7 +14,7 @@ body {
     background-color: #FFF2D7;
     color: #1F2A44;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 10px;
 }
 
@@ -116,7 +116,7 @@ ul.disc {
     gap: 2rem;
     white-space: nowrap;
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -125,7 +125,7 @@ ul.disc {
 /* Dropdown menu */
 .dropdown{
     display:none;
-    font-size:20px;
+    font-size:18px;
     font-family: cursive;
     background:none;
     border:none;
@@ -278,7 +278,7 @@ ul.disc {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: cursive;
     color: #1F2A44;
 }
@@ -290,7 +290,7 @@ ul.disc {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     font-family: cursive;
     transition: background-color 0.3s ease;
 }
@@ -360,7 +360,7 @@ ul.disc {
 }
 
 .Tech-text p {
-    margin-right: 35px;
+    margin-right: 27px;
 }
 
 .and-more {
@@ -664,7 +664,7 @@ ul.breadcrumb li a:hover {
 .vacancies-section h2,
 .vacancies-section h3,
 .vacancies-section h4 {
-    font-size: 20px;
+    font-size: 18px;
     color: #FF9F43;
 }
 
