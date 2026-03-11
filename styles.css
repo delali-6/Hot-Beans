@@ -10,21 +10,12 @@ body {
 }
 
 body {
-    font-family: cursive;
+    font-family: 'Comic Relief', cursive;
     background-color: #FFF2D7;
     color: #1F2A44;
     line-height: 1.6;
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 10px;
-}
-
-@keyframes testMove {
-  from {
-    transform: translateY(200px);
-  }
-  to {
-    transform: translateY(0);
-  }
 }
 
 h1 {
@@ -125,7 +116,7 @@ ul.disc {
     gap: 2rem;
     white-space: nowrap;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 22px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -134,7 +125,8 @@ ul.disc {
 /* Dropdown menu */
 .dropdown{
     display:none;
-    font-size:32px;
+    font-size:22px;
+    font-family: 'Comic Relief', cursive;
     background:none;
     border:none;
     cursor:pointer;
@@ -286,8 +278,8 @@ ul.disc {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
-    font-family: cursive;
+    font-size: 20px;
+    font-family: 'Comic Relief', cursive;
     color: #1F2A44;
 }
 
@@ -298,7 +290,8 @@ ul.disc {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Comic Relief', cursive;
     transition: background-color 0.3s ease;
 }
 
@@ -435,7 +428,7 @@ ul.disc {
     align-items: center;
     border-radius: 10px;
     transition: background-color 0.3s ease;
-    font-family: cursive;
+    font-family: 'Comic Relief', cursive;
 }
 
 .nav-links a:hover {
@@ -457,7 +450,7 @@ ul.breadcrumb {
     padding: 8px 15px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
-    font-family: cursive;
+    font-family: 'Comic Relief', cursive;
 }
 
 ul.breadcrumb li {
@@ -688,7 +681,7 @@ ul.breadcrumb li a:hover {
 .card-text {
     cursor: pointer;
     font-size: 22px;
-    font-family: cursive;
+    font-family: 'Comic Relief', cursive;
 }
 
 /* Job and vacancy sections */
@@ -763,6 +756,7 @@ ul.breadcrumb li a:hover {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     color: #1A1A1A;
+    font-family: 'Comic Relief', cursive;
 }
 
 .application-form label {
@@ -783,7 +777,7 @@ ul.breadcrumb li a:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Relief', cursive;
 }
 
 .application-form input[type="submit"] {
@@ -830,7 +824,7 @@ ul.breadcrumb li a:hover {
     align-items: center;
     gap: 20px;
     margin: auto;
-    font-size: 16px;
+    font-size: 20px;
     justify-content: space-between;
     width: 100%;
     min-width: 100%;
@@ -840,6 +834,7 @@ ul.breadcrumb li a:hover {
     margin-bottom: 10px;
     color: #F2F4F7;
     font-size: 20px;
+    font-family: 'Comic Relief', cursive;
 }
 
 .footer-Logo-card img {
