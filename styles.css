@@ -126,7 +126,7 @@ ul.disc {
 .dropdown{
     display:none;
     font-size:22px;
-    font-family: 'Comic Relief', cursive;
+    font-family: cursive;
     background:none;
     border:none;
     cursor:pointer;
@@ -279,7 +279,7 @@ ul.disc {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 20px;
-    font-family: 'Comic Relief', cursive;
+    font-family: cursive;
     color: #1F2A44;
 }
 
@@ -290,8 +290,8 @@ ul.disc {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
-    font-family: 'Comic Relief', cursive;
+    font-size: 22px;
+    font-family: cursive;
     transition: background-color 0.3s ease;
 }
 
@@ -359,10 +359,14 @@ ul.disc {
     margin-left: 30%;
 }
 
+.Tech-text p {
+    margin-right: 45px;
+}
+
 .and-more {
     text-align: center;
     color: #FF9F43;
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 20px;
 }
 
@@ -455,7 +459,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 ul.breadcrumb li + li:before {
@@ -660,7 +664,7 @@ ul.breadcrumb li a:hover {
 .vacancies-section h2,
 .vacancies-section h3,
 .vacancies-section h4 {
-    font-size: 30px;
+    font-size: 22px;
     color: #FF9F43;
 }
 
@@ -680,8 +684,8 @@ ul.breadcrumb li a:hover {
 
 .card-text {
     cursor: pointer;
-    font-size: 22px;
-    font-family: 'Comic Relief', cursive;
+    font-size: 24px;
+    font-family: cursive;
 }
 
 /* Job and vacancy sections */
@@ -756,7 +760,7 @@ ul.breadcrumb li a:hover {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     color: #1A1A1A;
-    font-family: 'Comic Relief', cursive;
+    font-family: cursive;
 }
 
 .application-form label {
@@ -776,8 +780,8 @@ ul.breadcrumb li a:hover {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
-    font-family: 'Comic Relief', cursive;
+    font-size: 20px;
+    font-family: cursive;
 }
 
 .application-form input[type="submit"] {
@@ -787,7 +791,7 @@ ul.breadcrumb li a:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 22px;
     transition: background-color 0.3s ease;
 }
 
@@ -833,8 +837,8 @@ ul.breadcrumb li a:hover {
 .footer h3 {
     margin-bottom: 10px;
     color: #F2F4F7;
-    font-size: 20px;
-    font-family: 'Comic Relief', cursive;
+    font-size: 24px;
+    font-family: cursive;
 }
 
 .footer-Logo-card img {
