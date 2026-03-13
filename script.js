@@ -1,7 +1,7 @@
 // JavaScript for the Hot Beans website
 // This script handles the navigation bar active state and the Apply Now button links
 document.addEventListener('DOMContentLoaded', function() {
-const navLinks = document.querySelectorAll('.nav-links');
+const navLinks = document.querySelectorAll('.nav-links a');
 const currentPage = window.location.pathname.split('/').pop();
 
 navLinks.forEach(link => {

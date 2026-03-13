@@ -440,7 +440,7 @@ ul.disc {
     color: #fff;
 }
 
-.nav-links.active {
+.nav-links a.active {
     background-color: #FF9F43;
     color: #efefe8;
 }
