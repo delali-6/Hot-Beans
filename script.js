@@ -12,6 +12,15 @@ navLinks.forEach(link => {
     }
 });
 
+const dropdownLinks = document.querySelectorAll('.dropdown-content a');
+dropdownLinks.forEach(link => {
+    if (link.getAttribute('href') === currentPage) {
+        link.classList.add('active');
+    } else {
+        link.classList.remove('active');
+    }
+});
+
 const params = new URLSearchParams(window.location.search);
 const position = params.get('position');
 

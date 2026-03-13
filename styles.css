@@ -132,6 +132,11 @@ ul.disc {
     cursor:pointer;
 }
 
+.dropdown-content a.active {
+    background-color: #FF9F43;
+    color: #efefe8;
+}
+
 /* Hero section */
 .hero {
     height: 90vh;
